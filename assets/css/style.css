@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+.container {
+    max-width: 1024px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.title {
+    text-align: center;
+    height: 30px;
+    margin-top: 30px;
+}
+.title h2 {
+    text-transform: uppercase;
+}
+.home {
+    background-image: url('../imagens/bg_home.png');
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+
+}
+
+.home-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-logo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-logo img {
+    width: 100%;
+}
+.home-left {
+    color: white;
+
+}
+.home-left h1 {
+    font-size: 24px;
+    text-shadow: 1px 3px 4px #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.home-left p {
+    font-size: 12px;
+    font-weight: lighter;
+    text-shadow: 1px 3px 4px #000;
+    margin-bottom: 8px;
+}
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #00093f;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px #000;
+    text-decoration: none;
+}
+button a {
+    text-decoration: none;
+}
+button a:visited {
+    color:white;
+}
+
+button:hover {
+    background-color: #00072e;
+}
+.sobre {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #d5d5ff;
+}
+.sobre-area {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre-img {
+    width: 49%;
+    height: 70%;
+    overflow: hidden;
+}
+.sobre-img img {
+    width: 100%;
+}
+.sobre-text {
+    width: 50%;
+}
+.sobre-text p {
+    padding: 10px;
+    font-size: 15px
+}
+.infos {
+    width: 100%;
+    height: 50vh;
+    background-color: #00072e;
+}
+.infos-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.infos-item img {
+    width: 70px;
+}
+.infos-item {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.infos-item p {
+    color: white;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 14px;
+    text-align: center;
+}
+.elenco {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #d5d5ff;
+}
+.elenco-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d5d5ff;
+    box-shadow: 1px 1px 3px #000;
+    height: 70%;
+    margin-top: 30px;
+}
+.elenco-item {
+    background-color: #00072e;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 5px;
+    width: 92px;
+    height: 170px;
+}
+.elenco-item p {
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 7px;
+    color: white;
+}
+.ator {
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 3px;
+}
+.personagem {
+    font-weight: 300;
+    font-style: italic;
+}
+footer {
+    background-color: #00072e;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-direction: column;
+    font-style: italic;
+}
